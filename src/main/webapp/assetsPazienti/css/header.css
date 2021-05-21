@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6-set-2019, 18.52.26
+    Author     : Giacomo
+*/
+
+.toast {
+    width: 90% !important;
+    margin: 0 5% !important;
+    max-width: 1500px !important;
+}
+
+#notification-box {
+    max-height: 250px;
+}
+
+#myModal {
+    width: 40%;
+    left: 60%;
+    top: 90px;
+}
+
+.shortcut {
+    cursor: pointer;
+    padding: 7.5px;
+    margin: 5px;
+}
+
+.shortcut > img {
+    width: 35px;
+    height: 35px;
+}
+
+#htitle {
+    margin: 0px;
+    margin-bottom: 15px;
+    background-color: #007bff;
+    font-family: Raleway;
+    position: relative;
+    height: 90px;
+}
+
+#ptitle {
+    font-size: 2.4em;
+    color: white;
+    position: relative;
+    top: 15px;
+    max-width: calc(100% - 300px);
+    margin-left: 90px;
+}
+
+@media (max-width: 900px) {
+    #ptitle {
+        display: block;
+        position: relative;
+        margin: 0;
+        top: 90px;
+        left: 10px;
+        max-width: calc(100% - 20px);
+        text-align: center;
+    }
+
+    #htitle {
+        height: 150px;
+    }
+}
+
+@media (max-width: 615px) {
+    #htitle {
+        height: 200px;
+    }
+}
